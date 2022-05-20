@@ -32,8 +32,8 @@ class Fakultas extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Image.network(
-                    'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
+                  Image.asset(
+                    'images/fakultas/FPMIPA.jpg',
                     height: 80,
                     width: 80,
                   )
@@ -69,8 +69,8 @@ class Fakultas extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Image.network(
-                    'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
+                  Image.asset(
+                    'images/fakultas/FPIPS.jpg',
                     height: 80,
                     width: 80,
                   )
