@@ -41,8 +41,15 @@ class Fakultas extends StatelessWidget {
           ),
           onTap: () {
             //gunakan navigator untuk panggil RincianFakultas
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => RincianFakultas()));
+            // bawa parameter
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => RincianFakultas(
+                  namaFakultas: "FPMIPA",
+                ),
+              ),
+            );
           },
         ),
         InkWell(
@@ -78,8 +85,12 @@ class Fakultas extends StatelessWidget {
           ),
           onTap: () {
             //gunakan navigator untuk panggil RincianFakultas
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => RincianFakultas()));
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => RincianFakultas(
+                          namaFakultas: "FPMIPA",
+                        )));
           },
         ),
       ]),
