@@ -89,7 +89,7 @@ class Fakultas extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                     builder: (context) => RincianFakultas(
-                          namaFakultas: "FPMIPA",
+                          namaFakultas: "FPIPS",
                         )));
           },
         ),
