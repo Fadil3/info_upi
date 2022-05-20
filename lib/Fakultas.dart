@@ -16,7 +16,7 @@ class Fakultas extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   SizedBox(
-                    width: 300,
+                    width: 350,
                     child: Column(
                       children: [
                         const Text(
@@ -44,9 +44,33 @@ class Fakultas extends StatelessWidget {
           },
         ),
         Container(
-            decoration: BoxDecoration(border: Border.all()),
-            padding: EdgeInsets.all(14),
-            child: Text("baris kedua")),
+          decoration: BoxDecoration(border: Border.all()),
+          padding: EdgeInsets.all(14),
+          child:
+              Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
+            SizedBox(
+              width: 350,
+              child: Column(
+                children: [
+                  const Text(
+                    "FPIPS",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                  const Text(
+                    "Fakultas Pendidikan Ilmu Pengetahuan Sosial",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 16),
+                  ),
+                ],
+              ),
+            ),
+            Image.network(
+              'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
+              height: 80,
+              width: 80,
+            )
+          ]),
+        ),
       ]),
     );
   }
