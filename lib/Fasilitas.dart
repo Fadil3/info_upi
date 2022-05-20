@@ -10,11 +10,11 @@ class Fasilitas extends StatelessWidget {
     },
     {
       "name": "kolam renang",
-      "url_image": "images/fakultas/FPMIPA.jpg",
+      "url_image": "images/fakultas/pool.jpg",
     },
     {
       "name": "stadion",
-      "url_image": "images/fakultas/FPMIPA.jpg",
+      "url_image": "images/fakultas/stadion.jpg",
     },
   ];
   @override
