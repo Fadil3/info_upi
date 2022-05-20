@@ -26,7 +26,11 @@ class MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(title: const Text("Info UPI")),
+      appBar: AppBar(
+          centerTitle: true,
+          title: const Text(
+            "Info UPI",
+          )),
       body: case2(idx),
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: idx,
